@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑" sans-serif;
+}
+span{
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+#tag{
+	margin: 40px;
+}
+#hobby{
+	margin: 40px;
+}
+
+
+#tagInput{
+	border: 1px solid black;
+	font-size: 18px;
+	border-radius: 5px;
+}
+#hobbyInput{
+	border: 1px solid black;
+	font-size: 18px;
+	border-radius: 5px;
+	float: left;
+}
+#sureHobby{
+	color: white;
+	font-size: 18px;
+	background-color: green;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-top: 20px;
+	float: left;
+}
+
+#tagOutput,#hobbyOutput{
+	margin-top: 40px;
+}
+
+#tagOutput li,#hobbyOutput li{
+	list-style: none;
+	margin: 10px 20px;
+	display: inline-block;
+	background-color: darkslateblue;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	height: 20px;
+	cursor: pointer;
+}
